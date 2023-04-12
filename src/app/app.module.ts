@@ -35,6 +35,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TecnicolistComponent } from './components/tecnico/tecnicolist/tecnicolist.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -44,7 +45,8 @@ import { TecnicolistComponent } from './components/tecnico/tecnicolist/tecnicoli
     NavComponent,
     HomeComponent,
     HeaderComponent,
-    TecnicolistComponent
+    TecnicolistComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
