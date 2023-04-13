@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -15,9 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 // Imports para componentes do Angular Material
 import { MatFormFieldModule } from '@angular/material/form-field';
-
 import {MatPaginatorModule} from '@angular/material/paginator';
-
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -30,7 +29,15 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+
+// Componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
+import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { TecnicolistComponent } from './components/tecnico/tecnicolist/tecnicolist.component';
+import { LoginComponent } from './components/login/login.component';
+import { ToastrModule } from 'ngx-toastr';
+import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
 
 
 
@@ -38,6 +45,10 @@ import { NavComponent } from './components/nav/nav.component';
   declarations: [
     AppComponent,
     NavComponent,
+    HomeComponent,
+    HeaderComponent,
+    TecnicolistComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -61,8 +72,13 @@ import { NavComponent } from './components/nav/nav.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
+    ToastrModule.forRoot({
+      timeOut: 4000,
+      closeButton: true,
+      progressBar: true
+    }),
   ],
-  providers: [],
+  providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
