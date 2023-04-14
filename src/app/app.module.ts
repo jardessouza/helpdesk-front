@@ -46,6 +46,7 @@ import { ClienteCreateComponent } from './components/cliente/cliente-create/clie
 import { ClientelistComponent } from './components/cliente/clientelist/clientelist.component';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
+import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-list.component';
 
 
 
@@ -64,6 +65,7 @@ import { ClienteDeleteComponent } from './components/cliente/cliente-delete/clie
     ClienteDeleteComponent,
     ClientelistComponent,
     ClienteUpdateComponent,
+    ChamadoListComponent,
 
   ],
   imports: [
