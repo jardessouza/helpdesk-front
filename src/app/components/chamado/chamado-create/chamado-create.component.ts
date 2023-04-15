@@ -17,14 +17,12 @@ import { Router } from '@angular/router';
 export class ChamadoCreateComponent implements OnInit {
 
   chamado: Chamado = {
-    prioridade: '',
-    status: '',
+    prioridade: 0,
+    status: 1,
     titulo: '',
     observacoes: '',
-    tecnico: '',
-    cliente: '',
-    nomeCliente: '',
-    nomeTecnico: '',
+    tecnico: 0,
+    cliente: 1,
   }
 
   clientes: Cliente[] = [];
