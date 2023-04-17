@@ -5,7 +5,7 @@
 
     <form class="form">
         <mat-form-field class="full-width">
-          <mat-label>Titulo do chamado</mat-label>
+          <mat-label>{{ chamado.titulo }}</mat-label>
           <input 
           [(ngModel)]="chamado.titulo"
           name="titulo"
@@ -18,7 +18,7 @@
 
       <div class="status-prioridade">
         <mat-form-field appearance="outline">
-            <mat-label>STATUS({{ chamado.status }})</mat-label>
+            <mat-label>{{ chamado.status }}</mat-label>
             <mat-select 
             [(ngModel)]="chamado.status"
             name="status"
@@ -31,7 +31,7 @@
           </mat-form-field>
 
           <mat-form-field  appearance="outline">
-            <mat-label>PRIORIDADE({{ chamado.prioridade }})</mat-label>
+            <mat-label>{{ chamado.prioridade }}</mat-label>
             <mat-select 
             [(ngModel)]="chamado.prioridade"
             name="prioridade"
@@ -46,7 +46,7 @@
 
       <div class="tecnico">
         <mat-form-field  class="full-width" appearance="outline">
-            <mat-label>TÉCNICO({{ chamado.tecnico }})</mat-label>
+            <mat-label>{{chamado.tecnico }}</mat-label>
             <mat-select 
             [(ngModel)]="chamado.tecnico"
             name="tecnico"
@@ -59,7 +59,7 @@
 
       <div class="cliente">
         <mat-form-field   class="full-width" appearance="outline">
-            <mat-label>CLIENTE({{ chamado.cliente }})</mat-label>
+            <mat-label>{{ chamado.cliente }}</mat-label>
             <mat-select 
             [(ngModel)]="chamado.cliente"
             name="cliente"
@@ -73,7 +73,7 @@
       <form class="example-form">
     
         <mat-form-field class="full-width" appearance="outline">
-          <mat-label>Deixe uma descrição</mat-label>
+          <mat-label>{{ chamado.observacoes }}</mat-label>
           <textarea 
           [(ngModel)]="chamado.observacoes"
             name="observacoes"
