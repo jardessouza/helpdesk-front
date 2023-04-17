@@ -12,10 +12,10 @@ Durante o projeto, são abordados os seguintes tópicos:
 Para executar o projeto acesse:
 
 ```
-https://helpdesk-prodd.herokuapp.com/login
+https://helpdesk-front-3ucb6ogx1-jardessouza.vercel.app/login
 ```
 Para fazer o login segue abaixo:
 ```
-login: validir@mail.com
+login: thomas@mail.com
 senha: 123
 ```
