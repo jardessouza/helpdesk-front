@@ -16,6 +16,6 @@ https://helpdesk-prodd.herokuapp.com/login
 ```
 Para fazer o login segue abaixo:
 ```
-login: thomas@mail.com
+login: validir@mail.com
 senha: 123
 ```
