@@ -1,27 +1,21 @@
-# Helpdesk
+<h2>Help Desk API Manager</h2>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+O objetivo do projeto Help Desk API Manager é disponibilizar uma API para cadastro de clientes, técnicos e chamados
+para uma empresa de uma API REST.
 
-## Development server
+Durante o projeto, são abordados os seguintes tópicos:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Setup inicial de projeto com o Angular 12.0.3
+* Criação de components chamado, cliente, técnico, header, home, login e nav.
+* Deploy na vercel
 
-## Code scaffolding
+Para executar o projeto em uma API Client, digite o seguinte comando:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+https://helpdesk-prodd.herokuapp.com/login
+```
+Para fazer o login segue abaixo:
+```
+login: thomas@mail.com
+senha: 123
+```
