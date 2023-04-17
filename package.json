@@ -2,7 +2,7 @@
   "name": "helpdesk",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "ng ",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -25,6 +25,7 @@
     "ngx-toastr": "^14.3.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
+    "webpack": "^4.46.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

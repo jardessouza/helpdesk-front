@@ -9,7 +9,7 @@ Durante o projeto, são abordados os seguintes tópicos:
 * Criação de components chamado, cliente, técnico, header, home, login e nav.
 * Deploy na vercel
 
-Para executar o projeto em uma API Client, digite o seguinte comando:
+Para executar o projeto acesse:
 
 ```
 https://helpdesk-prodd.herokuapp.com/login
