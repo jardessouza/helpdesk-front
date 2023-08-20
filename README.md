@@ -7,7 +7,6 @@ Durante o projeto, são abordados os seguintes tópicos:
 
 * Setup inicial de projeto com o Angular 12.0.3
 * Node 18
-* Node 18
 * Criação de components chamado, cliente, técnico, header, home, login e nav.
 * Deploy na vercel
 
